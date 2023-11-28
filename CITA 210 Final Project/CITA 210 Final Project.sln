@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CITA 210 Final Project", "CITA 210 Final Project\CITA 210 Final Project.csproj", "{5FBAE42A-13A3-44E7-981E-BEE6D4218F20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FBAE42A-13A3-44E7-981E-BEE6D4218F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FBAE42A-13A3-44E7-981E-BEE6D4218F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FBAE42A-13A3-44E7-981E-BEE6D4218F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FBAE42A-13A3-44E7-981E-BEE6D4218F20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {532CB93F-5F55-41BE-BDFE-EDC954ADC901}
+	EndGlobalSection
+EndGlobal
