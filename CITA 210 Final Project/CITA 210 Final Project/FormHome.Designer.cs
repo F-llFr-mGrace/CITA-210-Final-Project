@@ -60,26 +60,30 @@
             // toolStripMenuItem2
             // 
             toolStripMenuItem2.Name = "toolStripMenuItem2";
-            toolStripMenuItem2.Size = new Size(224, 26);
+            toolStripMenuItem2.Size = new Size(136, 26);
             toolStripMenuItem2.Text = "Add";
+            toolStripMenuItem2.Click += FormStudentAdd_Click;
             // 
             // toolStripMenuItem3
             // 
             toolStripMenuItem3.Name = "toolStripMenuItem3";
-            toolStripMenuItem3.Size = new Size(224, 26);
+            toolStripMenuItem3.Size = new Size(136, 26);
             toolStripMenuItem3.Text = "View";
+            toolStripMenuItem3.Click += FormStudentView_Click;
             // 
             // toolStripMenuItem4
             // 
             toolStripMenuItem4.Name = "toolStripMenuItem4";
-            toolStripMenuItem4.Size = new Size(224, 26);
+            toolStripMenuItem4.Size = new Size(136, 26);
             toolStripMenuItem4.Text = "Search";
+            toolStripMenuItem4.Click += FormStudentSearch_Click;
             // 
             // enrollToolStripMenuItem
             // 
             enrollToolStripMenuItem.Name = "enrollToolStripMenuItem";
-            enrollToolStripMenuItem.Size = new Size(224, 26);
+            enrollToolStripMenuItem.Size = new Size(136, 26);
             enrollToolStripMenuItem.Text = "Enroll";
+            enrollToolStripMenuItem.Click += FormStudentEnroll_Click;
             // 
             // classesToolStripMenuItem
             // 
@@ -93,12 +97,14 @@
             addToolStripMenuItem.Name = "addToolStripMenuItem";
             addToolStripMenuItem.Size = new Size(224, 26);
             addToolStripMenuItem.Text = "Add";
+            addToolStripMenuItem.Click += FormClassesAdd_Click;
             // 
             // viewToolStripMenuItem
             // 
             viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             viewToolStripMenuItem.Size = new Size(224, 26);
             viewToolStripMenuItem.Text = "View";
+            viewToolStripMenuItem.Click += FormClassesView_Click;
             // 
             // FormHome
             // 
