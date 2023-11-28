@@ -1,6 +1,6 @@
 ﻿namespace CITA_210_Final_Project
 {
-    partial class Form1
+    partial class FormHome
     {
         /// <summary>
         ///  Required designer variable.
@@ -60,7 +60,7 @@
             // toolStripMenuItem2
             // 
             toolStripMenuItem2.Name = "toolStripMenuItem2";
-            toolStripMenuItem2.Size = new Size(225, 26);
+            toolStripMenuItem2.Size = new Size(224, 26);
             toolStripMenuItem2.Text = "Add";
             // 
             // toolStripMenuItem3
@@ -100,14 +100,14 @@
             viewToolStripMenuItem.Size = new Size(224, 26);
             viewToolStripMenuItem.Text = "View";
             // 
-            // Form1
+            // FormHome
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
-            Name = "Form1";
+            Name = "FormHome";
             Text = "Simple Student Information System";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();

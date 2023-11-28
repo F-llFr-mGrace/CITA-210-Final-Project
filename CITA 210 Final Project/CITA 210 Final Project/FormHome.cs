@@ -1,8 +1,8 @@
 namespace CITA_210_Final_Project
 {
-    public partial class Form1 : Form
+    public partial class FormHome : Form
     {
-        public Form1()
+        public FormHome()
         {
             InitializeComponent();
         }
