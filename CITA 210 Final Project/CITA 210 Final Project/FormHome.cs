@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace CITA_210_Final_Project
 {
     // The FormHome class represents the main form of the application
@@ -15,6 +17,15 @@ namespace CITA_210_Final_Project
         public FormHome()
         {
             InitializeComponent();
+
+            studentId.Add(1);
+            studentName.Add("Grace");
+
+            studentId.Add(2);
+            studentName.Add("Aidan");
+
+            studentId.Add(3);
+            studentName.Add("Matt");
         }
 
         // Event handler for the "Add Student" button click
@@ -57,6 +68,20 @@ namespace CITA_210_Final_Project
         {
             // Show the FormClassesView when the button is clicked
             varFormClassesView.Show();
+        }
+        //FormHome varFormHome = new FormHome();
+
+        public int studentIdRef = 4;
+        public List<int> studentId = new List<int>();
+        public List<string> studentName = new List<string>();
+
+        public int ClassIdRef = 4;
+        public List<int> ClassId = new List<int>();
+        public List<string> ClassName = new List<string>();
+
+        private void FormHome_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
