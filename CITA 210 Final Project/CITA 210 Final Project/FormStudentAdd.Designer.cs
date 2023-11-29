@@ -30,6 +30,7 @@
         {
             textBoxInput = new TextBox();
             buttonAdd = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // textBoxInput
@@ -49,11 +50,21 @@
             buttonAdd.UseVisualStyleBackColor = true;
             buttonAdd.Click += buttonAdd_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(62, 42);
+            label1.Name = "label1";
+            label1.Size = new Size(158, 20);
+            label1.TabIndex = 2;
+            label1.Text = "First and last preferred";
+            // 
             // FormStudentAdd
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(388, 54);
+            ClientSize = new Size(388, 73);
+            Controls.Add(label1);
             Controls.Add(buttonAdd);
             Controls.Add(textBoxInput);
             Name = "FormStudentAdd";
@@ -66,5 +77,6 @@
 
         private TextBox textBoxInput;
         private Button buttonAdd;
+        private Label label1;
     }
 }

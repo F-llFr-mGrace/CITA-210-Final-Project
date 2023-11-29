@@ -65,11 +65,19 @@ namespace CITA_210_Final_Project
             {
                 MessageBox.Show("Invalid inputs");
             }
+            // Update the displayed list after deletion
+            UpdateList();
         }
-
 
         // Event handler for the "View" button click
         private void buttonView_Click(object sender, EventArgs e)
+        {
+            // Update the displayed list
+            UpdateList();
+        }
+
+        // Helper method to update the displayed list
+        private void UpdateList()
         {
             // Clear the output list box
             listBoxOutput.Items.Clear();
@@ -131,4 +139,5 @@ namespace CITA_210_Final_Project
             return enrollmentIndex <= FormHomeScript.registrar[studentIndex - 1].Count;
         }
     }
+
 }

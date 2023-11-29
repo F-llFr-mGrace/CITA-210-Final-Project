@@ -28,12 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FormClassesAdd";
+            textBoxInput = new TextBox();
+            buttonAdd = new Button();
+            label1 = new Label();
+            SuspendLayout();
+            // 
+            // textBoxInput
+            // 
+            textBoxInput.Location = new Point(12, 12);
+            textBoxInput.Name = "textBoxInput";
+            textBoxInput.Size = new Size(435, 27);
+            textBoxInput.TabIndex = 0;
+            // 
+            // buttonAdd
+            // 
+            buttonAdd.Location = new Point(453, 11);
+            buttonAdd.Name = "buttonAdd";
+            buttonAdd.Size = new Size(94, 29);
+            buttonAdd.TabIndex = 1;
+            buttonAdd.Text = "Add";
+            buttonAdd.UseVisualStyleBackColor = true;
+            buttonAdd.Click += buttonAdd_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(80, 42);
+            label1.Name = "label1";
+            label1.Size = new Size(303, 20);
+            label1.TabIndex = 2;
+            label1.Text = "Department then number example: CITA 212";
+            // 
+            // FormClassesAdd
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(559, 76);
+            Controls.Add(label1);
+            Controls.Add(buttonAdd);
+            Controls.Add(textBoxInput);
+            Name = "FormClassesAdd";
+            Text = "Classes Add";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private TextBox textBoxInput;
+        private Button buttonAdd;
+        private Label label1;
     }
 }

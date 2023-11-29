@@ -33,7 +33,7 @@ namespace CITA_210_Final_Project
             // Sample data for students and their enrolled classes
             studentId.Add(1);
             studentName.Add("Grace");
-            registrar.Add(new List<string>() { "CITA 210", "CITA 212", "CITA 200" });
+            registrar.Add(new List<string>() {"CITA 210"});
 
             studentId.Add(2);
             studentName.Add("Aidan");
@@ -42,6 +42,15 @@ namespace CITA_210_Final_Project
             studentId.Add(3);
             studentName.Add("Matt");
             registrar.Add(new List<string>());
+
+            classId.Add(1);
+            className.Add("CITA 210");
+
+            classId.Add(2);
+            className.Add("CITA 200");
+
+            classId.Add(3);
+            className.Add("CITA 212");
         }
 
         // Event handler for opening the FormStudentAdd
@@ -96,6 +105,6 @@ namespace CITA_210_Final_Project
         public int studentIdRef = 4;
 
         // Reference for the next class ID
-        public int classIdRef = 1;
+        public int classIdRef = 4;
     }
 }

@@ -20,5 +20,13 @@ namespace CITA_210_Final_Project
 
             FormHomeScript = initFormHome;
         }
+
+        private void buttonAdd_Click(object sender, EventArgs e)
+        {
+            FormHomeScript.classId.Add(FormHomeScript.classIdRef);
+            FormHomeScript.classIdRef++;
+
+            FormHomeScript.className.Add(textBoxInput.Text);
+        }
     }
 }
