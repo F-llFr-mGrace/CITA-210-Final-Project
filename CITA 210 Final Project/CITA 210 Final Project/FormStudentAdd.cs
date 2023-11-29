@@ -12,14 +12,23 @@ namespace CITA_210_Final_Project
 {
     public partial class FormStudentAdd : Form
     {
-        public FormStudentAdd(FormHome FormHomeScript)
+        FormHome FormHomeScript;
+
+        public FormStudentAdd(FormHome initFormHome)
         {
             InitializeComponent();
+
+            FormHomeScript = initFormHome;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonAdd_Click(object sender, EventArgs e)
         {
-            
+            FormHomeScript.studentId.Add(FormHomeScript.studentIdRef);
+            FormHomeScript.studentIdRef++;
+
+            FormHomeScript.studentName.Add(textBoxInput.Text);
+
+            FormHomeScript.registrar.Add(new List<string>());
         }
     }
 }

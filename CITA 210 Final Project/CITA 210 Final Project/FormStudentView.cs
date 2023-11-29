@@ -12,9 +12,26 @@ namespace CITA_210_Final_Project
 {
     public partial class FormStudentView : Form
     {
-        public FormStudentView(FormHome FormHomeScript)
+        FormHome FormHomeScript;
+
+        public FormStudentView(FormHome initFormHome)
         {
             InitializeComponent();
+
+            FormHomeScript = initFormHome;
+        }
+
+        private void buttonDelete_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonView_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < FormHomeScript.studentId.Count; i++)
+            {
+                listBoxOutput.Items.Add("Student ID : " + FormHomeScript.studentId[i] + " || Student Name : " + FormHomeScript.studentName[i]);
+            }
         }
     }
 }

@@ -47,7 +47,7 @@
             buttonAdd.TabIndex = 1;
             buttonAdd.Text = "Add";
             buttonAdd.UseVisualStyleBackColor = true;
-            buttonAdd.Click += button1_Click;
+            buttonAdd.Click += buttonAdd_Click;
             // 
             // FormStudentAdd
             // 
