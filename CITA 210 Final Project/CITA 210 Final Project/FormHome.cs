@@ -2,86 +2,100 @@ using System.Collections.Generic;
 
 namespace CITA_210_Final_Project
 {
-    // The FormHome class represents the main form of the application
+    /*
+     * Comments provided by ChatGPT
+     * Programmed by Grace Fowler
+     */
+
+    // FormHome class represents the main form of the application
     public partial class FormHome : Form
     {
-        // Declare instances of other forms to be used in the application
-        FormStudentAdd varFormStudentAdd = new FormStudentAdd();
-        FormStudentView varFormStudentView = new FormStudentView();
-        FormStudentSearch varFormStudentSearch = new FormStudentSearch();
-        FormStudentEnroll varFormStudentEnroll = new FormStudentEnroll();
-        FormClassesAdd varFormClassesAdd = new FormClassesAdd();
-        FormClassesView varFormClassesView = new FormClassesView();
+        // Instances of other forms
+        FormStudentAdd varFormStudentAdd;
+        FormStudentView varFormStudentView;
+        FormStudentSearch varFormStudentSearch;
+        FormStudentEnroll varFormStudentEnroll;
+        FormClassesAdd varFormClassesAdd;
+        FormClassesView varFormClassesView;
 
-        // Constructor for the FormHome class
+        // Lists to store student and class information
+        public List<int> studentId = new List<int>();
+        public List<string> studentName = new List<string>();
+        public List<int> classId = new List<int>();
+        public List<string> className = new List<string>();
+        public List<List<string>> registrar = new List<List<string>>();
+
+        // Constructor initializes the main form and adds sample data
         public FormHome()
         {
             InitializeComponent();
 
+            // Sample data for students and their enrolled classes
             studentId.Add(1);
             studentName.Add("Grace");
+            registrar.Add(new List<string>() { "CITA 210", "CITA 212", "CITA 200" });
 
             studentId.Add(2);
             studentName.Add("Aidan");
+            registrar.Add(new List<string>());
 
             studentId.Add(3);
             studentName.Add("Matt");
+            registrar.Add(new List<string>());
         }
 
-        // Event handler for the "Add Student" button click
+        // Event handler for opening the FormStudentAdd
         private void FormStudentAdd_Click(object sender, EventArgs e)
         {
-            // Show the FormStudentAdd when the button is clicked
+            varFormStudentAdd = new FormStudentAdd(this);
             varFormStudentAdd.Show();
         }
 
-        // Event handler for the "View Student" button click
+        // Event handler for opening the FormStudentView
         private void FormStudentView_Click(object sender, EventArgs e)
         {
-            // Show the FormStudentView when the button is clicked
+            varFormStudentView = new FormStudentView(this);
             varFormStudentView.Show();
         }
 
-        // Event handler for the "Search Student" button click
+        // Event handler for opening the FormStudentSearch
         private void FormStudentSearch_Click(object sender, EventArgs e)
         {
-            // Show the FormStudentSearch when the button is clicked
+            varFormStudentSearch = new FormStudentSearch(this);
             varFormStudentSearch.Show();
         }
 
-        // Event handler for the "Enroll Student" button click
+        // Event handler for opening the FormStudentEnroll
         private void FormStudentEnroll_Click(object sender, EventArgs e)
         {
-            // Show the FormStudentEnroll when the button is clicked
+            varFormStudentEnroll = new FormStudentEnroll(this);
             varFormStudentEnroll.Show();
         }
 
-        // Event handler for the "Add Classes" button click
+        // Event handler for opening the FormClassesAdd
         private void FormClassesAdd_Click(object sender, EventArgs e)
         {
-            // Show the FormClassesAdd when the button is clicked
+            varFormClassesAdd = new FormClassesAdd(this);
             varFormClassesAdd.Show();
         }
 
-        // Event handler for the "View Classes" button click
+        // Event handler for opening the FormClassesView
         private void FormClassesView_Click(object sender, EventArgs e)
         {
-            // Show the FormClassesView when the button is clicked
+            varFormClassesView = new FormClassesView(this);
             varFormClassesView.Show();
         }
-        //FormHome varFormHome = new FormHome();
 
-        public int studentIdRef = 4;
-        public List<int> studentId = new List<int>();
-        public List<string> studentName = new List<string>();
-
-        public int ClassIdRef = 4;
-        public List<int> ClassId = new List<int>();
-        public List<string> ClassName = new List<string>();
-
-        private void FormHome_Load(object sender, EventArgs e)
+        // Event handler for the Exit button to close the application
+        private void Exit_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
+
+        // Reference for the next student ID
+        public int studentIdRef = 4;
+
+        // Reference for the next class ID
+        public int classIdRef = 1;
     }
 }

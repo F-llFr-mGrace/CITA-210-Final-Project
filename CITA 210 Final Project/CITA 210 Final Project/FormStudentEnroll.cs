@@ -12,9 +12,13 @@ namespace CITA_210_Final_Project
 {
     public partial class FormStudentEnroll : Form
     {
-        public FormStudentEnroll()
+        FormHome FormHomeScript;
+
+        public FormStudentEnroll(FormHome initFormHome)
         {
             InitializeComponent();
+
+            FormHomeScript = initFormHome;
         }
     }
 }

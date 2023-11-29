@@ -28,18 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
+            textBoxInput = new TextBox();
+            buttonAdd = new Button();
             SuspendLayout();
             // 
-            // StudentAdd
+            // textBoxInput
+            // 
+            textBoxInput.Location = new Point(12, 12);
+            textBoxInput.Name = "textBoxInput";
+            textBoxInput.Size = new Size(263, 27);
+            textBoxInput.TabIndex = 0;
+            // 
+            // buttonAdd
+            // 
+            buttonAdd.Location = new Point(281, 12);
+            buttonAdd.Name = "buttonAdd";
+            buttonAdd.Size = new Size(94, 29);
+            buttonAdd.TabIndex = 1;
+            buttonAdd.Text = "Add";
+            buttonAdd.UseVisualStyleBackColor = true;
+            buttonAdd.Click += buttonAdd_Click;
+            // 
+            // FormStudentAdd
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Name = "StudentAdd";
-            Text = "Add Student";
+            ClientSize = new Size(388, 54);
+            Controls.Add(buttonAdd);
+            Controls.Add(textBoxInput);
+            Name = "FormStudentAdd";
+            Text = "Student Add";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private TextBox textBoxInput;
+        private Button buttonAdd;
     }
 }
