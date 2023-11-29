@@ -17,12 +17,15 @@ namespace CITA_210_Final_Project
 
             studentId.Add(1);
             studentName.Add("Grace");
+            registrar.Add(new List<string>());
 
             studentId.Add(2);
             studentName.Add("Aidan");
+            registrar.Add(new List<string>());
 
             studentId.Add(3);
             studentName.Add("Matt");
+            registrar.Add(new List<string>());
         }
 
         private void FormStudentAdd_Click(object sender, EventArgs e)
@@ -72,9 +75,9 @@ namespace CITA_210_Final_Project
         public List<int> studentId = new List<int>();
         public List<string> studentName = new List<string>();
 
-        public int ClassIdRef = 1;
-        public List<int> ClassId = new List<int>();
-        public List<string> ClassName = new List<string>();
+        public int classIdRef = 1;
+        public List<int> classId = new List<int>();
+        public List<string> className = new List<string>();
 
         public List<List<string>> registrar = new List<List<string>>();
     }

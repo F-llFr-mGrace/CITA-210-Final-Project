@@ -23,14 +23,56 @@ namespace CITA_210_Final_Project
 
         private void buttonDelete_Click(object sender, EventArgs e)
         {
+            MessageBox.Show(numericUpDownStudentIndex.Value + " | RAW | " + numericUpDownEnrollment.Value);
+            MessageBox.Show((int)numericUpDownStudentIndex.Value + " | To int | " + (int)numericUpDownEnrollment.Value);
 
+            if ((int)numericUpDownStudentIndex.Value > 0 && (int)numericUpDownEnrollment.Value <= 0)
+            {
+                MessageBox.Show(((int)numericUpDownStudentIndex.Value).ToString());
+                if ((int)numericUpDownStudentIndex.Value <= FormHomeScript.studentId.Count)
+                {
+                    if (FormHomeScript.studentId[(int)numericUpDownStudentIndex.Value - 1] > 0)
+                    {
+                        MessageBox.Show("delete state 1");
+                        FormHomeScript.studentId.RemoveAt((int)numericUpDownStudentIndex.Value - 1);
+                        FormHomeScript.studentName.RemoveAt((int)numericUpDownStudentIndex.Value - 1);
+                    }
+                }
+            }
+            else if ((int)numericUpDownStudentIndex.Value > 0 && (int)numericUpDownEnrollment.Value > 0)
+            {
+                if (FormHomeScript.registrar[(int)numericUpDownStudentIndex.Value - 1] == null)
+                {
+                    FormHomeScript.registrar[(int)numericUpDownStudentIndex.Value - 1].RemoveAt((int)numericUpDownEnrollment.Value - 1);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Invalid inputs");
+            }
         }
 
         private void buttonView_Click(object sender, EventArgs e)
         {
+            listBoxOutput.Items.Clear();
+            int studentIndex = 1;
+            int enrollmentIndex = 1;
             for (int i = 0; i < FormHomeScript.studentId.Count; i++)
             {
-                listBoxOutput.Items.Add("Student ID : " + FormHomeScript.studentId[i] + " || Student Name : " + FormHomeScript.studentName[i]);
+                listBoxOutput.Items.Add("# : " + studentIndex + " || Student ID : " + FormHomeScript.studentId[i] + " || Student Name : " + FormHomeScript.studentName[i]);
+                studentIndex++;
+
+                if ((int)numericUpDownStudentIndex.Value > 0 && (int)numericUpDownEnrollment.Value > 0)
+                {
+                    if (FormHomeScript.registrar[(int)numericUpDownStudentIndex.Value - 1] != null)
+                    {
+                        for (int j = 0; j < FormHomeScript.registrar[(int)numericUpDownEnrollment.Value].Count; j++)
+                        {
+                            listBoxOutput.Items.Add("# : " + enrollmentIndex + " || Student ID : " + FormHomeScript.classId[i] + " || Student Name : " + FormHomeScript.className[i]);
+                            enrollmentIndex++;
+                        }
+                    }
+                }
             }
         }
     }
