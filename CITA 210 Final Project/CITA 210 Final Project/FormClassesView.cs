@@ -12,7 +12,7 @@ namespace CITA_210_Final_Project
 {
     public partial class FormClassesView : Form
     {
-        public FormClassesView()
+        public FormClassesView(FormHome FormHomeScript)
         {
             InitializeComponent();
         }

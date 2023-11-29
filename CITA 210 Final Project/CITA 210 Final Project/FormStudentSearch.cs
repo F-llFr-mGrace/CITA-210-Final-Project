@@ -12,7 +12,7 @@ namespace CITA_210_Final_Project
 {
     public partial class FormStudentSearch : Form
     {
-        public FormStudentSearch()
+        public FormStudentSearch(FormHome FormHomeScript)
         {
             InitializeComponent();
         }

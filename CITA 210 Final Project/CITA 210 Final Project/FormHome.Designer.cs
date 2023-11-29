@@ -37,13 +37,14 @@
             classesToolStripMenuItem = new ToolStripMenuItem();
             addToolStripMenuItem = new ToolStripMenuItem();
             viewToolStripMenuItem = new ToolStripMenuItem();
+            exitToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, classesToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, classesToolStripMenuItem, exitToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(800, 28);
@@ -106,6 +107,13 @@
             viewToolStripMenuItem.Text = "View";
             viewToolStripMenuItem.Click += FormClassesView_Click;
             // 
+            // exitToolStripMenuItem
+            // 
+            exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            exitToolStripMenuItem.Size = new Size(47, 24);
+            exitToolStripMenuItem.Text = "Exit";
+            exitToolStripMenuItem.Click += Exit_Click;
+            // 
             // FormHome
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -132,5 +140,6 @@
         private ToolStripMenuItem classesToolStripMenuItem;
         private ToolStripMenuItem addToolStripMenuItem;
         private ToolStripMenuItem viewToolStripMenuItem;
+        private ToolStripMenuItem exitToolStripMenuItem;
     }
 }

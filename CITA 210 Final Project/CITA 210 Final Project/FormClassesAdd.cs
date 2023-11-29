@@ -12,7 +12,7 @@ namespace CITA_210_Final_Project
 {
     public partial class FormClassesAdd : Form
     {
-        public FormClassesAdd()
+        public FormClassesAdd(FormHome FormHomeScript)
         {
             InitializeComponent();
         }

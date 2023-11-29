@@ -12,9 +12,14 @@ namespace CITA_210_Final_Project
 {
     public partial class FormStudentAdd : Form
     {
-        public FormStudentAdd()
+        public FormStudentAdd(FormHome FormHomeScript)
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
