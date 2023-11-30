@@ -1,0 +1,24 @@
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\bin\Debug\net8.0-windows\CITA 210 Final Project.exe
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\bin\Debug\net8.0-windows\CITA 210 Final Project.deps.json
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\bin\Debug\net8.0-windows\CITA 210 Final Project.runtimeconfig.json
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\bin\Debug\net8.0-windows\CITA 210 Final Project.dll
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\bin\Debug\net8.0-windows\CITA 210 Final Project.pdb
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA_210_Final_Project.FormClassesAdd.resources
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA_210_Final_Project.FormClassesView.resources
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA_210_Final_Project.FormHome.resources
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA_210_Final_Project.FormStudentAdd.resources
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA_210_Final_Project.FormStudentEnroll.resources
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA_210_Final_Project.FormStudentSearch.resources
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA_210_Final_Project.FormStudentView.resources
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA_210_Final_Project.Properties.Resources.resources
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA 210 Final Project.csproj.GenerateResource.cache
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA 210 Final Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA 210 Final Project.AssemblyInfoInputs.cache
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA 210 Final Project.AssemblyInfo.cs
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA 210 Final Project.csproj.CoreCompileInputs.cache
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA 210 Final Project.sourcelink.json
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA 210 Final Project.dll
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\refint\CITA 210 Final Project.dll
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA 210 Final Project.pdb
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\CITA 210 Final Project.genruntimeconfig.cache
+C:\Users\Mason\OneDrive - SUNY Morrisville\Documents\GitHub\CITA-210-Final-Project\CITA 210 Final Project\CITA 210 Final Project\obj\Debug\net8.0-windows\ref\CITA 210 Final Project.dll
