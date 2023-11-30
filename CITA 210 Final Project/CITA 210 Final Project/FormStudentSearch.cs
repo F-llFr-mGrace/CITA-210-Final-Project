@@ -20,6 +20,10 @@ namespace CITA_210_Final_Project
 
             FormHomeScript = initFormHome;
         }
-        
+
+        private void buttonSearch_Click(object sender, EventArgs e)
+        {
+            //textBoxOutput.Text = FormHomeScript.studentId[(int)numericUpDown1.Value].ToString;
+        }
     }
 }

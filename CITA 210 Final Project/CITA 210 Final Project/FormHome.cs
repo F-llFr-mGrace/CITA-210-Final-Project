@@ -37,11 +37,11 @@ namespace CITA_210_Final_Project
 
             studentId.Add(2);
             studentName.Add("Aidan");
-            registrar.Add(new List<string>());
+            registrar.Add(new List<string>() { "CITA 210" });
 
             studentId.Add(3);
             studentName.Add("Matt");
-            registrar.Add(new List<string>());
+            registrar.Add(new List<string>() { "CITA 210" });
 
             classId.Add(1);
             className.Add("CITA 210");
