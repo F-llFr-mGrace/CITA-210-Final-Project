@@ -23,7 +23,13 @@ namespace CITA_210_Final_Project
 
         private void buttonSearch_Click(object sender, EventArgs e)
         {
-            //textBoxOutput.Text = FormHomeScript.studentId[(int)numericUpDown1.Value].ToString;
+            foreach (int Id in FormHomeScript.studentId)
+            {
+                if (Id == (int)numericUpDown1.Value)
+                {
+                    textBoxOutput.Text = ("Student ID : " + Id + " || Student Name : " + FormHomeScript.studentName[(Id - 1)]).ToString();
+                }
+            }
         }
     }
 }

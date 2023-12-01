@@ -33,7 +33,7 @@ namespace CITA_210_Final_Project
             // Sample data for students and their enrolled classes
             studentId.Add(1);
             studentName.Add("Grace");
-            registrar.Add(new List<string>() {"CITA 210"});
+            registrar.Add(new List<string>() { "CITA 210" });
 
             studentId.Add(2);
             studentName.Add("Aidan");
