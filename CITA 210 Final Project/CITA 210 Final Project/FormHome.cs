@@ -33,15 +33,23 @@ namespace CITA_210_Final_Project
             // Sample data for students and their enrolled classes
             studentId.Add(1);
             studentName.Add("Grace");
+<<<<<<< HEAD
             registrar.Add(new List<string>() {"CITA 210"});
+=======
+            registrar.Add(new List<string>() { "CITA 210" });
+>>>>>>> In-progress
 
             studentId.Add(2);
             studentName.Add("Aidan");
-            registrar.Add(new List<string>());
+            registrar.Add(new List<string>() { "CITA 210" });
 
             studentId.Add(3);
             studentName.Add("Matt");
+<<<<<<< HEAD
             registrar.Add(new List<string>());
+=======
+            registrar.Add(new List<string>() { "CITA 210" });
+>>>>>>> In-progress
 
             classId.Add(1);
             className.Add("CITA 210");
