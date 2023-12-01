@@ -28,12 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FormSearchStudent";
+            textBoxOutput = new TextBox();
+            numericUpDown1 = new NumericUpDown();
+            label1 = new Label();
+            buttonSearch = new Button();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            SuspendLayout();
+            // 
+            // textBoxOutput
+            // 
+            textBoxOutput.Location = new Point(12, 12);
+            textBoxOutput.Name = "textBoxOutput";
+            textBoxOutput.Size = new Size(333, 27);
+            textBoxOutput.TabIndex = 0;
+            // 
+            // numericUpDown1
+            // 
+            numericUpDown1.Location = new Point(12, 47);
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new Size(79, 27);
+            numericUpDown1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(107, 49);
+            label1.Name = "label1";
+            label1.Size = new Size(126, 20);
+            label1.TabIndex = 2;
+            label1.Text = "Enter Student's ID";
+            // 
+            // buttonSearch
+            // 
+            buttonSearch.Location = new Point(251, 45);
+            buttonSearch.Name = "buttonSearch";
+            buttonSearch.Size = new Size(94, 29);
+            buttonSearch.TabIndex = 3;
+            buttonSearch.Text = "Search";
+            buttonSearch.UseVisualStyleBackColor = true;
+            buttonSearch.Click += buttonSearch_Click;
+            // 
+            // FormStudentSearch
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(359, 87);
+            Controls.Add(buttonSearch);
+            Controls.Add(label1);
+            Controls.Add(numericUpDown1);
+            Controls.Add(textBoxOutput);
+            Name = "FormStudentSearch";
+            Text = "Student Search";
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private TextBox textBoxOutput;
+        private NumericUpDown numericUpDown1;
+        private Label label1;
+        private Button buttonSearch;
     }
 }
