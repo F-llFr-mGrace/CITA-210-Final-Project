@@ -32,6 +32,7 @@
             listBoxClasses = new ListBox();
             buttonEnroll = new Button();
             buttonRefresh = new Button();
+            label3 = new Label();
             SuspendLayout();
             // 
             // listBoxStudents
@@ -39,20 +40,20 @@
             listBoxStudents.FormattingEnabled = true;
             listBoxStudents.Location = new Point(12, 12);
             listBoxStudents.Name = "listBoxStudents";
-            listBoxStudents.Size = new Size(309, 424);
+            listBoxStudents.Size = new Size(535, 424);
             listBoxStudents.TabIndex = 0;
             // 
             // listBoxClasses
             // 
             listBoxClasses.FormattingEnabled = true;
-            listBoxClasses.Location = new Point(548, 12);
+            listBoxClasses.Location = new Point(774, 12);
             listBoxClasses.Name = "listBoxClasses";
             listBoxClasses.Size = new Size(309, 424);
             listBoxClasses.TabIndex = 1;
             // 
             // buttonEnroll
             // 
-            buttonEnroll.Location = new Point(327, 84);
+            buttonEnroll.Location = new Point(553, 84);
             buttonEnroll.Name = "buttonEnroll";
             buttonEnroll.Size = new Size(215, 66);
             buttonEnroll.TabIndex = 3;
@@ -62,7 +63,7 @@
             // 
             // buttonRefresh
             // 
-            buttonRefresh.Location = new Point(327, 12);
+            buttonRefresh.Location = new Point(553, 12);
             buttonRefresh.Name = "buttonRefresh";
             buttonRefresh.Size = new Size(215, 66);
             buttonRefresh.TabIndex = 3;
@@ -70,11 +71,21 @@
             buttonRefresh.UseVisualStyleBackColor = true;
             buttonRefresh.Click += buttonRefresh_Click;
             // 
+            // label3
+            // 
+            label3.Location = new Point(553, 153);
+            label3.Name = "label3";
+            label3.Size = new Size(215, 53);
+            label3.TabIndex = 8;
+            label3.Text = "One class and one student must be selected to enroll.";
+            label3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // FormStudentEnroll
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(869, 447);
+            ClientSize = new Size(1097, 447);
+            Controls.Add(label3);
             Controls.Add(buttonRefresh);
             Controls.Add(buttonEnroll);
             Controls.Add(listBoxClasses);
@@ -90,5 +101,6 @@
         private ListBox listBoxClasses;
         private Button buttonEnroll;
         private Button buttonRefresh;
+        private Label label3;
     }
 }

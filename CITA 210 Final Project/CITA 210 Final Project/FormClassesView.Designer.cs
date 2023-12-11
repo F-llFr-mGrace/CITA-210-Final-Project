@@ -38,14 +38,14 @@
             listBoxOutput.FormattingEnabled = true;
             listBoxOutput.Location = new Point(12, 12);
             listBoxOutput.Name = "listBoxOutput";
-            listBoxOutput.Size = new Size(332, 424);
+            listBoxOutput.Size = new Size(493, 424);
             listBoxOutput.TabIndex = 0;
             // 
             // buttonView
             // 
             buttonView.Location = new Point(12, 442);
             buttonView.Name = "buttonView";
-            buttonView.Size = new Size(226, 89);
+            buttonView.Size = new Size(389, 89);
             buttonView.TabIndex = 1;
             buttonView.Text = "View All (Refresh)";
             buttonView.UseVisualStyleBackColor = true;
@@ -53,7 +53,7 @@
             // 
             // buttonDelete
             // 
-            buttonDelete.Location = new Point(244, 442);
+            buttonDelete.Location = new Point(407, 442);
             buttonDelete.Name = "buttonDelete";
             buttonDelete.Size = new Size(98, 89);
             buttonDelete.TabIndex = 2;
@@ -65,7 +65,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(354, 543);
+            ClientSize = new Size(515, 543);
             Controls.Add(buttonDelete);
             Controls.Add(buttonView);
             Controls.Add(listBoxOutput);

@@ -39,7 +39,7 @@
             // 
             textBoxOutput.Location = new Point(12, 12);
             textBoxOutput.Name = "textBoxOutput";
-            textBoxOutput.Size = new Size(333, 27);
+            textBoxOutput.Size = new Size(545, 27);
             textBoxOutput.TabIndex = 0;
             // 
             // numericUpDown1
@@ -54,13 +54,13 @@
             label1.AutoSize = true;
             label1.Location = new Point(107, 49);
             label1.Name = "label1";
-            label1.Size = new Size(126, 20);
+            label1.Size = new Size(146, 20);
             label1.TabIndex = 2;
-            label1.Text = "Enter Student's ID";
+            label1.Text = "<- Enter Student's ID";
             // 
             // buttonSearch
             // 
-            buttonSearch.Location = new Point(251, 45);
+            buttonSearch.Location = new Point(259, 45);
             buttonSearch.Name = "buttonSearch";
             buttonSearch.Size = new Size(94, 29);
             buttonSearch.TabIndex = 3;
@@ -72,7 +72,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(359, 87);
+            ClientSize = new Size(569, 87);
             Controls.Add(buttonSearch);
             Controls.Add(label1);
             Controls.Add(numericUpDown1);

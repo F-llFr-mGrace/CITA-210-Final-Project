@@ -4,7 +4,7 @@ namespace CITA_210_Final_Project
 {
     /*
      * Comments provided by ChatGPT
-     * Programmed by Grace Fowler
+     * Programmed by Group 2
      */
 
     // FormHome class represents the main form of the application
@@ -33,15 +33,15 @@ namespace CITA_210_Final_Project
             // Sample data for students and their enrolled classes
             studentId.Add(1);
             studentName.Add("Grace");
-            registrar.Add(new List<string>() { "CITA 210" });
+            registrar.Add(new List<string>());
 
             studentId.Add(2);
             studentName.Add("Aidan");
-            registrar.Add(new List<string>() { "CITA 210" });
+            registrar.Add(new List<string>());
 
             studentId.Add(3);
             studentName.Add("Matt");
-            registrar.Add(new List<string>() { "CITA 210" });
+            registrar.Add(new List<string>());
 
             classId.Add(1);
             className.Add("CITA 210");

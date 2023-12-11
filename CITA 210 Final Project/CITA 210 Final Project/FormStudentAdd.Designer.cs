@@ -37,12 +37,12 @@
             // 
             textBoxInput.Location = new Point(12, 12);
             textBoxInput.Name = "textBoxInput";
-            textBoxInput.Size = new Size(263, 27);
+            textBoxInput.Size = new Size(414, 27);
             textBoxInput.TabIndex = 0;
             // 
             // buttonAdd
             // 
-            buttonAdd.Location = new Point(281, 12);
+            buttonAdd.Location = new Point(432, 12);
             buttonAdd.Name = "buttonAdd";
             buttonAdd.Size = new Size(94, 29);
             buttonAdd.TabIndex = 1;
@@ -63,7 +63,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(388, 73);
+            ClientSize = new Size(538, 73);
             Controls.Add(label1);
             Controls.Add(buttonAdd);
             Controls.Add(textBoxInput);

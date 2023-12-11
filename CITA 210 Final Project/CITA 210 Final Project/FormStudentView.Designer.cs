@@ -47,14 +47,14 @@
             listBoxOutput.FormattingEnabled = true;
             listBoxOutput.Location = new Point(12, 12);
             listBoxOutput.Name = "listBoxOutput";
-            listBoxOutput.Size = new Size(348, 304);
+            listBoxOutput.Size = new Size(517, 304);
             listBoxOutput.TabIndex = 0;
             // 
             // buttonView
             // 
             buttonView.Location = new Point(12, 322);
             buttonView.Name = "buttonView";
-            buttonView.Size = new Size(348, 78);
+            buttonView.Size = new Size(517, 78);
             buttonView.TabIndex = 1;
             buttonView.Text = "View All (Refresh)";
             buttonView.UseVisualStyleBackColor = true;
@@ -62,21 +62,21 @@
             // 
             // numericUpDownStudentIndex
             // 
-            numericUpDownStudentIndex.Location = new Point(118, 406);
+            numericUpDownStudentIndex.Location = new Point(205, 406);
             numericUpDownStudentIndex.Name = "numericUpDownStudentIndex";
             numericUpDownStudentIndex.Size = new Size(170, 27);
             numericUpDownStudentIndex.TabIndex = 2;
             // 
             // numericUpDownEnrollment
             // 
-            numericUpDownEnrollment.Location = new Point(118, 439);
+            numericUpDownEnrollment.Location = new Point(205, 439);
             numericUpDownEnrollment.Name = "numericUpDownEnrollment";
             numericUpDownEnrollment.Size = new Size(170, 27);
             numericUpDownEnrollment.TabIndex = 3;
             // 
             // buttonDelete
             // 
-            buttonDelete.Location = new Point(294, 406);
+            buttonDelete.Location = new Point(463, 406);
             buttonDelete.Name = "buttonDelete";
             buttonDelete.Size = new Size(66, 60);
             buttonDelete.TabIndex = 4;
@@ -87,7 +87,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 408);
+            label1.Location = new Point(99, 408);
             label1.Name = "label1";
             label1.Size = new Size(100, 20);
             label1.TabIndex = 5;
@@ -96,7 +96,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(31, 441);
+            label2.Location = new Point(118, 441);
             label2.Name = "label2";
             label2.Size = new Size(81, 20);
             label2.TabIndex = 6;
@@ -105,7 +105,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(12, 478);
+            label3.Location = new Point(108, 478);
             label3.Name = "label3";
             label3.Size = new Size(363, 20);
             label3.TabIndex = 7;
@@ -114,7 +114,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(28, 507);
+            label4.Location = new Point(124, 507);
             label4.Name = "label4";
             label4.Size = new Size(316, 20);
             label4.TabIndex = 8;
@@ -123,7 +123,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(86, 527);
+            label5.Location = new Point(182, 527);
             label5.Name = "label5";
             label5.Size = new Size(193, 20);
             label5.TabIndex = 9;
@@ -133,7 +133,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(376, 556);
+            ClientSize = new Size(541, 556);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);

@@ -10,28 +10,42 @@ using System.Windows.Forms;
 
 namespace CITA_210_Final_Project
 {
+    /*
+     * Comments provided by ChatGPT
+     * Programmed by Group 2
+     */
+
+    // FormClassesView class represents the form for viewing class information
     public partial class FormClassesView : Form
     {
         FormHome FormHomeScript;
 
+        // Constructor for FormClassesView, initializes the form
         public FormClassesView(FormHome initFormHome)
         {
             InitializeComponent();
 
+            // Set the reference to the main form
             FormHomeScript = initFormHome;
         }
 
+        // Event handler for the "View" button click
         private void buttonView_Click(object sender, EventArgs e)
         {
+            // Clear the output list box
             listBoxOutput.Items.Clear();
+
+            // Display class information in the output list box
             for (int i = 0; i < FormHomeScript.classId.Count; i++)
             {
                 listBoxOutput.Items.Add("# : " + (i + 1) + " || Class ID : " + FormHomeScript.classId[i] + " || Class Name : " + FormHomeScript.className[i]);
             }
         }
 
+        // Event handler for the "Delete" button click
         private void buttonDelete_Click(object sender, EventArgs e)
         {
+            // Check if an item is selected in the output list box
             if (listBoxOutput.SelectedIndex >= 0)
             {
                 int selectedIndex = listBoxOutput.SelectedIndex;
@@ -49,6 +63,7 @@ namespace CITA_210_Final_Project
                     }
 
                     // Remove class information
+                    MessageBox.Show("Deleted class ID: " + FormHomeScript.classId[selectedIndex]);
                     FormHomeScript.classId.RemoveAt(selectedIndex);
                     FormHomeScript.className.RemoveAt(selectedIndex);
 
@@ -77,6 +92,5 @@ namespace CITA_210_Final_Project
                 listBoxOutput.Items.Add("# : " + (i + 1) + " || Class ID : " + FormHomeScript.classId[i] + " || Class Name : " + FormHomeScript.className[i]);
             }
         }
-
     }
 }

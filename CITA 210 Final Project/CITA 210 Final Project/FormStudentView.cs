@@ -12,7 +12,7 @@ namespace CITA_210_Final_Project
 {
     /*
      * Comments provided by ChatGPT
-     * Programmed by Grace Fowler
+     * Programmed by Group 2
      */
 
     // FormStudentView class represents the form for viewing student information
@@ -38,12 +38,18 @@ namespace CITA_210_Final_Project
 
                 if (IsStudentIndexInRange(studentIndex))
                 {
+                    MessageBox.Show("Deleted student ID: " + FormHomeScript.studentId[studentIndex - 1]);
+
                     // Remove student information
                     FormHomeScript.studentId.RemoveAt(studentIndex - 1);
                     FormHomeScript.studentName.RemoveAt(studentIndex - 1);
 
                     // Remove the entire registrar class list for the deleted student
                     FormHomeScript.registrar.RemoveAt(studentIndex - 1);
+                }
+                else
+                {
+                    MessageBox.Show("Invalid index");
                 }
             }
             else if (IsStudentIndexValid() && (int)numericUpDownEnrollment.Value > 0)
@@ -59,6 +65,14 @@ namespace CITA_210_Final_Project
                         // Remove enrollment information
                         FormHomeScript.registrar[studentIndex - 1].RemoveAt(enrollmentIndex - 1);
                     }
+                    else
+                    {
+                        MessageBox.Show("Invalid index");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Invalid index");
                 }
             }
             else
@@ -76,7 +90,7 @@ namespace CITA_210_Final_Project
             UpdateList();
         }
 
-        // Helper method to update the displayed list
+        // Updates the listbox with information from the lists in FormHome
         private void UpdateList()
         {
             // Clear the output list box
